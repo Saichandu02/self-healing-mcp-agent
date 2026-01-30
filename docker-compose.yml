@@ -1,0 +1,10 @@
+services:
+  patient-app:
+    build: ./patient-app
+    container_name: fragile-service
+    ports:
+      - "8000:8000"
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DB_SECRET=
