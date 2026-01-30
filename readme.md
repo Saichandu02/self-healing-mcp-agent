@@ -1,7 +1,3 @@
-📥 Step 1: Create the file
-In your S:\self-healing-mcp-agent folder, create or open README.md and paste the following:
-
-Markdown
 # 🤖 Agentic MLOps: Self-Healing Infrastructure Agent
 
 An autonomous DevOps agent built to monitor, diagnose, and repair containerized applications. This project demonstrates **Agentic Operations**—using code to perform "Reason + Act" (ReAct) loops to maintain system uptime without human intervention.
