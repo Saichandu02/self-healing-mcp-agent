@@ -26,6 +26,7 @@ self-healing-mcp-agent/
 ├── doctor-agent/          # The Autonomous Agent (The Doctor)
 │   └── agent.py           # The "Reason + Act" healing logic
 └── docker-compose.yml     # Infrastructure orchestration
+```
 
 🚀 Step-by-Step Execution Guide
 1. Build and Deploy the "Patient"
@@ -48,3 +49,10 @@ Once the agent reports SUCCESS, verify the app is healthy.
 PowerShell
 Invoke-RestMethod -Uri "http://localhost:8000/health"
 Expected Output: {"status":"running","message":"Connected with TylerTexas_Verified_2026"}
+
+## 🎓 Skills Acquired & Demonstrated
+* **Agentic Operations:** Implementation of "Reason + Act" (ReAct) patterns for autonomous system management.
+* **Observability & Logging:** Configuring Python applications to emit actionable telemetry for automated monitors.
+* **Infrastructure as Code (IaC):** Managing container lifecycles and environment configurations via Docker Compose.
+* **Automated Remediation:** Reducing MTTR (Mean Time To Recovery) through programmatic infrastructure state changes.
+* **Troubleshooting:** Identifying and resolving logging bottlenecks (buffering) in containerized Windows environments.
